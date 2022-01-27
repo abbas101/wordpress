@@ -1,13 +1,10 @@
-<?php
-/**
- * The template for displaying all pages.
- * Template Name: Staff Page
- */
-
-get_header();
+ <?php 
+ 
+// Get custom taxonomies and posts 
+// Get terms -> parent terms 
+// Get terms_parent -> child terms
+// Get posts of child terms 
  ?>
-
-
 <?php    
     $taxonomy = 'staff_categories';
     $postType = 'staff';
@@ -49,6 +46,4 @@ get_header();
     }
 ?>
 </div>  
-
-
-<?php get_footer(); ?>
+ 
