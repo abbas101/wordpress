@@ -3,7 +3,7 @@
 // Get custom taxonomies and posts 
 // Get terms -> parent terms 
 // Get terms_parent -> child terms
-// Get posts of child terms 
+// Get posts of child terms  
  ?>
 <?php    
     $taxonomy = 'staff_categories';
