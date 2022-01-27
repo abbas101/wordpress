@@ -8,7 +8,7 @@ get_header();
  ?>
 
 
-<?php   
+<?php    
     $taxonomy = 'staff_categories';
     $postType = 'staff';
     $terms = get_terms(['taxonomy' => $taxonomy, 'orderby' => 'term_id', 'parent' => 0, 'hide_empty' => false]);
